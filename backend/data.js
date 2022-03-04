@@ -33,7 +33,7 @@ const data = {
       category: 'Shirts',
       image: '../images/p5.jpeg',
       price: 156,
-      countInStock: 20,
+      countInStock: 0,
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
