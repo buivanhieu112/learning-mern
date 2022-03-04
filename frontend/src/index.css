@@ -29,7 +29,7 @@ header a {
 }
 
 .product {
-  border: 1px #404040 solid;
+  border: 1px #c7bfbf solid;
   margin: 1rem;
 }
 .product img {
@@ -39,4 +39,8 @@ header a {
 
 .product-info {
   padding: 1rem;
+}
+
+.rating span {
+  color: #ffc000;
 }
