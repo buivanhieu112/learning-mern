@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Store } from '../Store';
+import { toast } from 'react-toastify';
+import { getError } from '../utils';
 
 export default function SigninScreen() {
 
@@ -39,7 +41,7 @@ export default function SigninScreen() {
 
       navigate(redirect || '/')     
     } catch (err) {
-      alert('Invalid email or password')
+      toast.error(getError(err))
     }
   }
 
