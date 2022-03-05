@@ -63,7 +63,7 @@ export default function ShippingAddressScreen() {
                 <Form.Group className="mb-3" controlId="fullName">
                     <Form.Label>Full Name</Form.Label>
                     <Form.Control value={fullName} 
-                        onChange={e => setFullName(e.target.value)} require
+                        onChange={e => setFullName(e.target.value)} required
                     />
                 </Form.Group>
 
@@ -71,7 +71,7 @@ export default function ShippingAddressScreen() {
                 <Form.Group className="mb-3" controlId="address">
                     <Form.Label>Address</Form.Label>
                     <Form.Control value={address} 
-                        onChange={e => setAddress(e.target.value)} require
+                        onChange={e => setAddress(e.target.value)} required
                     />
                 </Form.Group>
 
@@ -79,7 +79,7 @@ export default function ShippingAddressScreen() {
                 <Form.Group className="mb-3" controlId="city">
                     <Form.Label>City</Form.Label>
                     <Form.Control value={city} 
-                        onChange={e => setCity(e.target.value)} require
+                        onChange={e => setCity(e.target.value)} required
                     />
                 </Form.Group>
 
@@ -87,7 +87,7 @@ export default function ShippingAddressScreen() {
                 <Form.Group className="mb-3" controlId="postalCode">
                     <Form.Label>Postal Code</Form.Label>
                     <Form.Control value={postalCode} 
-                        onChange={e => setPostalCode(e.target.value)} require
+                        onChange={e => setPostalCode(e.target.value)} required
                     />
                 </Form.Group>
 
@@ -95,7 +95,7 @@ export default function ShippingAddressScreen() {
                 <Form.Group className="mb-3" controlId="country">
                     <Form.Label>Country</Form.Label>
                     <Form.Control value={country} 
-                        onChange={e => setCountry(e.target.value)} require
+                        onChange={e => setCountry(e.target.value)} required
                     />
                 </Form.Group>
     {/* Button */}
