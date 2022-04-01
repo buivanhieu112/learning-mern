@@ -3,17 +3,17 @@ import bcrypt from 'bcryptjs';
 const data = {
   users: [
     {
-      name:'Hieu',
-      email:'admin@example.com',
+      name: 'Hieu',
+      email: 'admin@example.com',
       password: bcrypt.hashSync('123456'),
       isAdmin: true,
     },
     {
-      name:'Hieu1',
-      email:'user@example.com',
+      name: 'Hieu1',
+      email: 'user@example.com',
       password: bcrypt.hashSync('123456'),
       isAdmin: false,
-    }
+    },
   ],
   products: [
     {
@@ -46,7 +46,7 @@ const data = {
       // _id: '3',
       name: 'Nike Slim Pant',
       slug: 'nike-slim-pant',
-      category: 'Shirts',
+      category: 'Pants',
       image: '../images/p5.jpeg',
       price: 156,
       countInStock: 0,
